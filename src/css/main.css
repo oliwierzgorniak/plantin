@@ -4,6 +4,9 @@
   --accent-color: #dc8c22;
   --text-background-color: #f5ece5;
 
+  --stroke-width: 0.13rem;
+  --edge-padding: 0.5rem;
+
   /* fluid type */
   /* @link https://utopia.fyi/type/calculator?c=320,17,1.2,1240,19,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
@@ -35,7 +38,7 @@ body {
 
 body {
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 200vh;
   max-width: 1280px;
   background-image: url("../img/paper.jpg");
   overflow: hidden;

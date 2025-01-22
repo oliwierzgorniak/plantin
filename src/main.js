@@ -1,2 +1,5 @@
-import "./styles/main.css";
-import "./styles/nav.css";
+import handleMenu from "./js/handleMenu";
+import "./css/main.css";
+import "./css/nav.css";
+
+handleMenu();
