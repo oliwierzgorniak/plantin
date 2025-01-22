@@ -78,3 +78,12 @@ button {
 .hidden {
   display: none;
 }
+
+/* message */
+.message {
+  border: var(--stroke-width) solid var(--text-color);
+  font-size: var(--fs-0);
+  background-color: var(--text-background-color);
+  margin: 0.5em;
+  padding: 0.5em;
+}

@@ -4,8 +4,14 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
 }
 
 .hero__img {
   width: 90vw;
+}
+
+.hero__message-container {
+  position: absolute;
+  top: 7em;
 }
