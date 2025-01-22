@@ -1,0 +1,77 @@
+:root {
+  --bg-color: #e1dfd7;
+  --text-color: #333333;
+  --accent-color: #dc8c22;
+  --text-background-color: #f5ece5;
+
+  /* fluid type */
+  /* @link https://utopia.fyi/type/calculator?c=320,17,1.2,1240,19,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+  --fs--2: clamp(0.7378rem, 0.7301rem + 0.0385vw, 0.76rem);
+  --fs--1: clamp(0.8854rem, 0.863rem + 0.1123vw, 0.95rem);
+  --fs-0: clamp(1.0625rem, 1.019rem + 0.2174vw, 1.1875rem);
+  --fs-1: clamp(1.275rem, 1.2022rem + 0.3641vw, 1.4844rem);
+  --fs-2: clamp(1.53rem, 1.4168rem + 0.566vw, 1.8555rem);
+  --fs-3: clamp(1.836rem, 1.6679rem + 0.8406vw, 2.3193rem);
+  --fs-4: clamp(2.2032rem, 1.9611rem + 1.2104vw, 2.8992rem);
+  --fs-5: clamp(2.6438rem, 2.3029rem + 1.7046vw, 3.624rem);
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: var(--bg-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  max-width: 1280px;
+  background-image: url("../img/paper.jpg");
+  overflow: hidden;
+}
+
+a {
+  color: var(--text-color);
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  border: 0.5em solid var(--accent-color);
+  margin: 0;
+  padding: 1em;
+  font-size: 1rem;
+  line-height: 1;
+  background-image: url("../img/paper.jpg");
+  appearance: none;
+  color: black; /*safari*/
+}
+
+/* utility classes */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.hidden {
+  display: none;
+}

@@ -3,8 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Museum Plantin-Moretus</title>
     <script type="module" src="/src/main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <svg style="display: none">
+      <symbol id="navicon" viewBox="0 0 34 34" fill="currentColor">
+        <rect y="6" width="34" height="2" fill="#333332" />
+        <rect y="16" width="34" height="2" fill="#333332" />
+        <rect y="26" width="34" height="2" fill="#333332" />
+      </symbol>
+      <symbol id="close" viewBox="0 0 34 34" fill="currentColor">
+        <rect
+          x="4.27197"
+          y="28.0416"
+          width="34"
+          height="2"
+          transform="rotate(-45 4.27197 28.0416)"
+          fill="#333332"
+        />
+        <rect
+          x="5.68604"
+          y="4.27206"
+          width="34"
+          height="2"
+          transform="rotate(45 5.68604 4.27206)"
+          fill="#333332"
+        />
+      </symbol>
+    </svg>
+    <nav class="nav">
+      <h1 class="nav__title visually-hidden">Museum Plantin-Moretus</h1>
+      <button
+        class="nav__button hidden"
+        aria-label="Navigation menu"
+        aria-expanded="false"
+        aria-controls="nav__list"
+      >
+        <svg
+          role="img"
+          aria-labelledby="svg-title"
+          focusable="false"
+          width="34"
+          height="34"
+        >
+          <title id="svg-title">Menu</title>
+          <use id="iconlink" xlink:href="#navicon"></use>
+        </svg>
+      </button>
+      <div class="nav__mobile-menu">
+        <ul class="nav__list" id="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="/#">About the museum →</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="/#">Plan your visit →</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="/#">What is there to see? →</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="/#">Collection & research →</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
 </html>
