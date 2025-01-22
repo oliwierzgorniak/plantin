@@ -1,16 +1,11 @@
-.hero {
+.market {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
   position: relative;
 }
 
-.hero__img {
-  width: 90vw;
-}
-
-.hero__message-container {
+.market__message {
   position: absolute;
-  top: 7em;
+  top: 0;
 }
