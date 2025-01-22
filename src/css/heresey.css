@@ -1,0 +1,27 @@
+.heresey {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1.6em;
+}
+
+.heresey__img-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: min-content;
+  align-self: flex-end;
+  margin-inline-end: 1em;
+}
+
+.heresey__wood-img {
+  position: absolute;
+  top: 0;
+}
+
+.heresey__pope-img {
+  justify-self: flex-end;
+  width: 90%;
+  height: min-content;
+  margin-inline-start: 0.5em;
+}
