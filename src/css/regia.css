@@ -1,0 +1,31 @@
+.regia {
+  background-image: url("../img/regia-background.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-end;
+  gap: 4em;
+}
+
+.regia__king-img {
+  justify-self: flex-end;
+  margin-block-end: 4.5rem;
+}
+
+.regia__img-container {
+  position: relative;
+  margin-inline-start: 0.9em;
+  margin-block-end: 4.5rem;
+}
+
+.regia__plantin-img {
+  transform: scaleX(-1);
+}
+
+.regia__message-img {
+  position: absolute;
+  right: 100%;
+  top: 0;
+  transform: translate(30%, -50%);
+}
