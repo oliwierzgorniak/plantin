@@ -1,0 +1,10 @@
+.chart__container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 100vh;
+  padding: 1.5em 0.3em 1em 0.3em;
+}
+
+.chart__chart {
+  height: 100%;
+}
