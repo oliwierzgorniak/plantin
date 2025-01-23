@@ -1,0 +1,12 @@
+.printer {
+  background-image: url("../img/printer-background.svg");
+  background-repeat: no-repeat;
+  /* background-size: 90%; */
+  background-position: 50% 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.printer__message {
+  height: min-content;
+}
