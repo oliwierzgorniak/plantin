@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   position: relative;
+  align-items: center;
 }
 
 .paris__message {
@@ -16,5 +17,5 @@
 }
 
 .paris__map {
-  transform: translateY(-3rem);
+  /* transform: translateY(-3rem); */
 }
