@@ -9,19 +9,26 @@
   position: relative;
   display: flex;
   justify-content: center;
-  width: min-content;
   align-self: flex-end;
-  margin-inline-end: 1em;
+  height: 50vh;
+  margin: auto;
+}
+
+.heresey__pamphlet-img {
+  width: min-content;
+  height: 100%;
 }
 
 .heresey__wood-img {
   position: absolute;
   top: 0;
+  width: 110%;
+  height: min-content;
 }
 
 .heresey__pope-img {
   justify-self: flex-end;
-  width: 90%;
-  height: min-content;
-  margin-inline-start: 0.5em;
+  height: 45vh;
+  width: min-content;
+  margin: auto;
 }
