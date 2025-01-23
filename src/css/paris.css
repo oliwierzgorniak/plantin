@@ -1,0 +1,19 @@
+.paris {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.paris__message {
+  position: absolute;
+  top: 2em;
+}
+
+.paris__pin {
+  position: absolute;
+  top: 63%;
+  left: 7%;
+}
+
+.paris__map {
+  transform: translateY(-3rem);
+}
