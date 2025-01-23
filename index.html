@@ -7,10 +7,46 @@
     <script type="module" src="/src/main.js" defer></script>
   </head>
   <body>
-    <nav class="nav">
-      <h1 class="nav__title visually-hidden">Museum Plantin-Moretus</h1>
-      <img class="nav__logo" src="./src/img/logo.svg" alt="museum logo" />
-      <button class="nav__button">
+    <header class="header">
+      <h1 class="header__title visually-hidden">Museum Plantin-Moretus</h1>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="https://museumplantinmoretus.be/en/content/about-museum-0"
+              >About the museum →</a
+            >
+          </li>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="https://museumplantinmoretus.be/en/content/plan-your-visit-0"
+              >Plan your visit →</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <img class="header__logo" src="./src/img/logo.svg" alt="museum logo" />
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="https://museumplantinmoretus.be/en/content/what-there-see-0"
+              >What is there to see? →</a
+            >
+          </li>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="https://museumplantinmoretus.be/en/content/collection-research-0"
+              >Collection & research →</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <button class="header__open-button">
         <svg
           role="img"
           aria-labelledby="svg-title"
@@ -23,8 +59,8 @@
           <rect y="26" width="34" height="2" fill="#333332" />
         </svg>
       </button>
-      <div class="nav__mobile-menu">
-        <button class="nav__mobile-menu-button">
+      <nav class="header__mobile-nav">
+        <button class="header__close-button">
           <svg
             role="img"
             aria-labelledby="svg-title"
@@ -50,38 +86,38 @@
             />
           </svg>
         </button>
-        <ul class="nav__mobile-menu-list">
-          <li class="nav__item">
+        <ul class="header__mobile-menu-list">
+          <li>
             <a
-              class="nav__link"
-              href="https://museumplantinmoretus.be/en/content/about-museum-0"
-              >About the museum →</a
-            >
-          </li>
-          <li class="nav__item">
-            <a
-              class="nav__link"
+              class="header__link"
               href="https://museumplantinmoretus.be/en/content/plan-your-visit-0"
               >Plan your visit →</a
             >
           </li>
-          <li class="nav__item">
+          <li>
             <a
-              class="nav__link"
+              class="header__link"
               href="https://museumplantinmoretus.be/en/content/what-there-see-0"
               >What is there to see? →</a
             >
           </li>
-          <li class="nav__item">
+          <li>
             <a
-              class="nav__link"
+              class="header__link"
               href="https://museumplantinmoretus.be/en/content/collection-research-0"
               >Collection & research →</a
             >
           </li>
+          <li>
+            <a
+              class="header__link"
+              href="https://museumplantinmoretus.be/en/content/about-museum-0"
+              >About the museum →</a
+            >
+          </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <section class="hero section">
       <div class="hero__message-container">
         <p class="hero__message hero__message1 message">
