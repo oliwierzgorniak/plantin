@@ -1,12 +1,18 @@
 .fury {
   background-image: url("../img/fury-background.svg");
   background-repeat: no-repeat;
-  background-position: 50% 25%;
+  background-position: 50% 35%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   padding-block-end: 3.5rem;
   position: relative;
+}
+
+.fury__duke-img,
+.fury__plantin-img,
+.fury__soldier-img {
+  margin-block-start: 15.5rem;
 }
 
 .fury__message {
@@ -15,7 +21,7 @@
   bottom: 0;
 }
 
-.fury-duke-img {
+.fury__duke-img {
   justify-self: flex-end;
   margin-block-end: 4.5rem;
 }
