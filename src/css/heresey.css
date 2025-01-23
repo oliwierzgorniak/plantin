@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: flex-end;
   gap: 1.6em;
+  padding-block-start: 20em;
 }
 
 .heresey__img-container {
@@ -28,7 +29,7 @@
 
 .heresey__pope-img {
   justify-self: flex-end;
-  height: 45vh;
+  height: 42vh;
   width: min-content;
   margin: auto;
 }
