@@ -9,6 +9,7 @@
 
 .printer__message {
   height: min-content;
+  margin: 1em auto;
 }
 
 @media (min-width: 380px) {
