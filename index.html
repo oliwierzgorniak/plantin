@@ -160,20 +160,27 @@
         bookbinder and leatherworker, Plantin laid the groundwork for his future
         printing empire.
       </p>
-      <img
-        class="market__market-img"
-        src="./src/img/market.png"
-        alt="market"
-        width="320"
-        height="271"
-      />
+      <picture class="market__market-img">
+        <source
+          srcset="./src/img/market-tablet.png"
+          media="(min-width: 750px)"
+          type="image/png"
+        />
+        <img
+          class="market__market-img"
+          src="./src/img/market.png"
+          alt="market"
+          width="320"
+          height="271"
+        />
+      </picture>
       <div class="market__img-container">
         <img
           class="market__circle-img"
           src="./src/img/market-circle.svg"
           alt="orange circle"
-          width="122"
-          height="122"
+          width="170"
+          height="170"
         />
         <img
           class="market__plantin-img"
