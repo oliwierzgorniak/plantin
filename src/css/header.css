@@ -63,3 +63,14 @@
   padding-left: 0;
   padding: 0.5em;
 }
+
+@media (min-width: 700px) {
+  .header__logo {
+    width: 7rem;
+  }
+
+  .header__open-button img {
+    width: 4rem;
+    height: 4rem;
+  }
+}
