@@ -45,3 +45,30 @@
     margin-inline-end: 2.7em;
   }
 }
+
+@media (orientation: landscape) {
+  .heresey {
+    max-width: 70rem;
+    margin: auto;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    padding-block-start: 1em;
+    padding-inline: 2em;
+  }
+
+  .heresey__img-container {
+    align-self: flex-start;
+    width: 50%;
+  }
+
+  .heresey__pamphlet-img {
+    width: 100%;
+    height: min-content;
+  }
+
+  .heresey__pope-img {
+    width: 50%;
+    height: min-content;
+  }
+}
