@@ -7,54 +7,6 @@
     <script type="module" src="/src/main.js" defer></script>
   </head>
   <body>
-    <header class="header">
-      <h1 class="header__title visually-hidden">Museum Plantin-Moretus</h1>
-      <nav class="header__nav">
-        <ul class="header__nav-list">
-          <li class="nav__item">
-            <a
-              class="nav__link"
-              href="https://museumplantinmoretus.be/en/content/collection-research-0"
-              >Collection & research</a
-            >
-          </li>
-          <li class="nav__item">
-            <a
-              class="nav__link"
-              href="https://museumplantinmoretus.be/en/content/plan-your-visit-0"
-              >Plan your visit</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <img class="header__logo" src="./src/img/logo.svg" alt="museum logo" />
-      <nav class="header__nav">
-        <ul class="header__nav-list">
-          <li class="nav__item">
-            <a
-              class="nav__link"
-              href="https://museumplantinmoretus.be/en/content/what-there-see-0"
-              >What is there to see?</a
-            >
-          </li>
-          <li class="nav__item">
-            <a
-              class="nav__link"
-              href="https://museumplantinmoretus.be/en/content/about-museum-0"
-              >About the museum</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <button class="header__open-button">
-        <img
-          src="./src/img/open-menu.svg"
-          alt="open menu icon"
-          width="34"
-          height="34"
-        />
-      </button>
-    </header>
     <nav class="header__mobile-nav">
       <button class="header__close-button">
         <svg
@@ -114,6 +66,54 @@
       </ul>
     </nav>
     <section class="hero section">
+      <header class="header">
+        <h1 class="header__title visually-hidden">Museum Plantin-Moretus</h1>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="https://museumplantinmoretus.be/en/content/collection-research-0"
+                >Collection & research</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="https://museumplantinmoretus.be/en/content/plan-your-visit-0"
+                >Plan your visit</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <img class="header__logo" src="./src/img/logo.svg" alt="museum logo" />
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="https://museumplantinmoretus.be/en/content/what-there-see-0"
+                >What is there to see?</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="https://museumplantinmoretus.be/en/content/about-museum-0"
+                >About the museum</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="header__open-button">
+          <img
+            src="./src/img/open-menu.svg"
+            alt="open menu icon"
+            width="34"
+            height="34"
+          />
+        </button>
+      </header>
       <div class="hero__message-container">
         <p class="hero__message hero__message1 message">
           Christopher Plantin, owner of the Officina Plantiniana - the largest
@@ -127,11 +127,22 @@
           testament to his cunning ability to balance competing interests.
         </p>
       </div>
-      <img
-        class="hero__img"
-        src="./src/img/hero.svg"
-        alt="print of Plantin divided into two part with color, orange circle in the background"
-      />
+      <div class="hero__img-container">
+        <img
+          class="hero__circle-img"
+          height="255"
+          width="255"
+          src="./src/img/hero-circle.svg"
+          alt="orange circle"
+        />
+        <img
+          width="195"
+          height="245"
+          class="hero__plantin-img"
+          src="./src/img/hero-plantin.png"
+          alt="print of Plantin divided into two part with color"
+        />
+      </div>
     </section>
     <section class="paris section">
       <p class="paris__message message">
