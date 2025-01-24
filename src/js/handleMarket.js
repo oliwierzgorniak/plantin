@@ -17,8 +17,8 @@ const handleMarket = () => {
   );
 
   tl.fromTo(
-    ".market__circle-img",
-    { y: "100vh", ease: "power2.out" },
+    ".market__circle-img .circle",
+    { y: "135%", ease: "power2.out" },
     { y: 0 }
   );
 
