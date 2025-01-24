@@ -2,6 +2,7 @@
   background-image: url("../img/fury-background.svg");
   background-repeat: no-repeat;
   background-position: 50% 40%;
+  background-size: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +13,7 @@
 .fury__duke-img,
 .fury__plantin-img,
 .fury__soldier-img {
-  margin-block-start: 15.5rem;
+  margin-block-start: 43vh;
 }
 
 .fury__message {
@@ -34,4 +35,17 @@
 
 .fury__soldier-img {
   margin-block-end: 4.5rem;
+}
+
+@media (min-width: 380px) {
+  .printer {
+    background-position: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  .printer {
+    background-position: 50%;
+    background-size: 35rem;
+  }
 }
