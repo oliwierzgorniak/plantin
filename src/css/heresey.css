@@ -33,3 +33,15 @@
   width: min-content;
   margin: auto;
 }
+
+@media (min-width: 800px) {
+  .heresey__pope-img {
+    margin: unset;
+    margin-inline-start: 1em;
+  }
+
+  .heresey__img-container {
+    margin: unset;
+    margin-inline-end: 2.7em;
+  }
+}
