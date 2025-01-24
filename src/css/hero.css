@@ -8,9 +8,15 @@
 
 .hero__img {
   width: 90vw;
+  max-width: 47rem;
 }
 
 .hero__message-container {
   position: absolute;
   top: 7em;
 }
+
+/* @media (orientation: landscape) {
+  .hero__img {
+  }
+} */

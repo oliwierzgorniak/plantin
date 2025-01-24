@@ -6,6 +6,7 @@
 
   --stroke-width: 0.13rem;
   --edge-padding: 0.5rem;
+  --max-width: 1440px;
 
   /* fluid type */
   /* @link https://utopia.fyi/type/calculator?c=320,17,1.2,1240,19,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
@@ -90,6 +91,7 @@ button {
   padding: 0.5em;
   text-align: center;
   z-index: 11;
+  position: relative;
 }
 
 .section {

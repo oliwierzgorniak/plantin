@@ -4,10 +4,20 @@
   display: flex;
   justify-content: space-between;
   z-index: 9;
+  max-width: var(--max-width);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header__nav {
   display: none;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 1.7em;
+  font-size: 1.5rem;
+  padding-inline-start: 0;
 }
 
 .header__logo {
@@ -72,5 +82,26 @@
   .header__open-button img {
     width: 4rem;
     height: 4rem;
+  }
+}
+
+@media (min-width: 1150px) {
+  .header {
+    justify-content: center;
+    gap: 2.5em;
+    margin-inline-start: 0.6em;
+  }
+
+  .header__open-button {
+    display: none;
+  }
+
+  .header__nav {
+    display: initial;
+    margin-block-start: 0.5em;
+  }
+
+  .header__logo {
+    width: 8.5rem;
   }
 }
