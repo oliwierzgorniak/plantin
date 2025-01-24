@@ -12,10 +12,12 @@ import "./css/chart.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import handleMenu from "./js/handleMenu";
-import hadnleHero from "./js/handleHero";
+import handleHero from "./js/handleHero";
+import handleMarket from "./js/handleMarket";
 
 // gsap
 gsap.registerPlugin(ScrollTrigger);
-hadnleHero();
+handleHero();
+handleMarket();
 
 handleMenu();

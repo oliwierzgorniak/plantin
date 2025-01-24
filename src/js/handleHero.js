@@ -1,11 +1,10 @@
 import { gsap } from "gsap";
 
-const hadnleHero = () => {
+const handleHero = () => {
   const tl = gsap.timeline({
     scrollTrigger: {
       trigger: ".hero",
       start: "top top",
-      end: "+=1000",
       scrub: true,
       pin: true,
     },
@@ -30,4 +29,4 @@ const hadnleHero = () => {
   );
 };
 
-export default hadnleHero;
+export default handleHero;

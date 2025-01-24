@@ -16,6 +16,7 @@
   height: min-content;
   position: relative;
   z-index: 3;
+  display: block;
 }
 
 .market__img-container {
@@ -35,7 +36,7 @@
 
 .market__circle-img {
   position: absolute;
-  top: 0;
+  top: -10%;
   left: 50%;
   margin-inline-start: -0.6rem;
   transform: translate(-50%, -25%);
