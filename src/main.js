@@ -16,6 +16,7 @@ import handleHero from "./js/handleHero";
 import handleMarket from "./js/handleMarket";
 import handleRegia from "./js/handleRegia";
 import handlePrinter from "./js/handlePrinter";
+import handleFury from "./js/handleFury";
 
 // gsap
 gsap.registerPlugin(ScrollTrigger);
@@ -23,5 +24,6 @@ handleHero();
 handleMarket();
 handleRegia();
 handlePrinter();
+handleFury();
 
 handleMenu();
