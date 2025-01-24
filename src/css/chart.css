@@ -3,8 +3,11 @@
   overflow-y: hidden;
   height: 100vh;
   padding: 1.5em 0.3em 1em 0.3em;
+  margin: auto;
 }
 
 .chart__chart {
   height: 100%;
+  margin: auto;
+  display: block;
 }
