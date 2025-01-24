@@ -1,8 +1,8 @@
 .fury {
-  background-image: url("../img/fury-background.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 40%;
-  background-size: 80%;
+  background-image: url("../img/fury-background.svg"), url("../img/paper.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: 50% 40%, center;
+  background-size: 80%, auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,15 +43,15 @@
 }
 
 @media (min-width: 380px) {
-  .printer {
-    background-position: 50%;
+  .fury {
+    background-position: 50% 45%, auto;
   }
 }
 
 @media (min-width: 800px) {
   .fury {
     background-position: 50%;
-    background-size: 35rem;
+    background-size: 35rem, auto;
   }
 }
 

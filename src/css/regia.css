@@ -1,8 +1,8 @@
 .regia {
-  background-image: url("../img/regia-background.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 40%;
-  background-size: 80%;
+  background-image: url("../img/regia-background.svg"), url("../img/paper.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: 50% 40%, center;
+  background-size: 80%, auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -54,14 +54,13 @@
 
 @media (min-width: 380px) {
   .regia {
-    background-position: 50%;
+    background-position: 50% 45%, center;
   }
 }
 
 @media (min-width: 800px) {
   .regia {
-    background-position: 50%;
-    background-size: 35rem;
+    background-size: 35rem, auto;
     gap: 18rem;
   }
 }
