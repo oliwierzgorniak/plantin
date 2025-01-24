@@ -37,12 +37,33 @@
   position: absolute;
   top: 0;
   left: 50%;
-  margin-inline-start: -0.4rem;
+  margin-inline-start: -0.6rem;
   transform: translate(-50%, -25%);
 }
 
 @media (min-width: 750px) {
   .market__img-container {
     width: 16%;
+    margin-block-end: -7rem;
   }
+
+  .market__circle-img {
+    margin-inline-start: -0.65rem;
+    width: 17rem;
+    height: 17rem;
+  }
+}
+
+@media (orientation: landscape) {
+  .market__img-container {
+    width: 10%;
+    margin-block-end: -11rem;
+    margin-inline-start: 1.2rem;
+  }
+
+  /* .market__circle-img {
+    margin-inline-start: -0.65rem;
+    width: 20rem;
+    height: 20rem;
+  } */
 }
