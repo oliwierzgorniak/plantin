@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-block-end: 3.5rem;
+  padding-block-end: 1.5rem;
   position: relative;
 }
 
@@ -24,17 +24,22 @@
 
 .fury__duke-img {
   justify-self: flex-end;
-  margin-block-end: 4.5rem;
+  margin-block-end: 6.5rem;
+  height: 35vh;
+  width: min-content;
 }
 
-.fury-plantin-img {
-  position: relative;
+.fury__plantin-img {
   margin-inline-start: 0.9em;
-  margin-block-end: 4.5rem;
+  /* margin-block-end: 3.5rem; */
+  height: 42vh;
+  width: min-content;
 }
 
 .fury__soldier-img {
-  margin-block-end: 4.5rem;
+  margin-block-end: 6.5rem;
+  height: 35vh;
+  width: min-content;
 }
 
 @media (min-width: 380px) {
