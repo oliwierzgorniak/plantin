@@ -27,17 +27,52 @@
   height: min-content;
 }
 
-.heresey__pope-img {
+.heresey__pope-img-container {
   justify-self: flex-end;
+  margin: 0 auto;
+  position: relative;
   height: 42vh;
-  width: min-content;
-  margin: auto;
+  aspect-ratio: 300/268;
+  margin-inline-start: 1em;
+}
+
+.heresey__pope-img {
+  width: 100%;
+  height: 100%;
+}
+
+.heresey__message {
+  position: absolute;
+  left: 47%;
+  top: 3%;
+  width: 40%;
+}
+
+.heresey__button {
+  border: none;
+  padding: 0.5em;
+  position: absolute;
+  background: none;
+  bottom: 0;
+  right: 12%;
+  width: 30%;
+  height: auto;
+}
+
+.heresey__button img {
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 800px) {
-  .heresey__pope-img {
+  .heresey__pope-img-container {
     margin: unset;
     margin-inline-start: 1em;
+    width: min-content;
+  }
+
+  .heresey__pope-img {
+    width: min-content;
   }
 
   .heresey__img-container {
@@ -67,7 +102,7 @@
     height: min-content;
   }
 
-  .heresey__pope-img {
+  .heresey__pope-img-container {
     width: 50%;
     height: min-content;
   }
