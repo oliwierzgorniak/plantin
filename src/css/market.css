@@ -38,8 +38,8 @@
   position: absolute;
   top: -10%;
   left: 50%;
-  margin-inline-start: -0.6rem;
-  transform: translate(-50%, -25%);
+  margin-inline-start: -0.4rem;
+  transform: translate(-50%, 0);
 }
 
 @media (min-width: 750px) {
