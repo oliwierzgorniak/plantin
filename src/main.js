@@ -15,11 +15,13 @@ import handleMenu from "./js/handleMenu";
 import handleHero from "./js/handleHero";
 import handleMarket from "./js/handleMarket";
 import handleRegia from "./js/handleRegia";
+import handlePrinter from "./js/handlePrinter";
 
 // gsap
 gsap.registerPlugin(ScrollTrigger);
 handleHero();
 handleMarket();
 handleRegia();
+handlePrinter();
 
 handleMenu();
