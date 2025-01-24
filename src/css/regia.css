@@ -8,6 +8,7 @@
   align-items: center;
   gap: 4em;
   position: relative;
+  justify-content: center;
 }
 
 .regia__king-img,
@@ -21,6 +22,8 @@
   position: absolute;
   z-index: 2;
   bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .regia__king-img {
@@ -59,10 +62,6 @@
   .regia {
     background-position: 50%;
     background-size: 35rem;
-  }
-
-  .heresey__img-container {
-    margin: unset;
-    margin-inline-end: 2.7em;
+    gap: 18rem;
   }
 }

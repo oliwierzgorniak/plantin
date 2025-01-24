@@ -92,6 +92,8 @@ button {
   text-align: center;
   z-index: 11;
   position: relative;
+  width: 100%;
+  max-width: 50rem;
 }
 
 .section {
