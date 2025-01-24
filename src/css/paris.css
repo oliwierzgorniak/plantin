@@ -10,10 +10,15 @@
   top: 2em;
 }
 
+.paris__img-container {
+  position: relative;
+}
+
 .paris__pin {
   position: absolute;
-  top: 63%;
-  left: 7%;
+  top: 43%;
+  left: 60%;
+  transform: translate(-50%, -50%);
 }
 
 .paris__map {
