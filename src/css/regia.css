@@ -1,7 +1,7 @@
 .regia {
   background-image: url("../img/regia-background.svg");
   background-repeat: no-repeat;
-  background-position: 50% 35%;
+  background-position: 50% 40%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -11,7 +11,9 @@
 
 .regia__king-img,
 .regia__img-container {
-  margin-block-start: 15rem;
+  margin-block-start: 45vh;
+  height: 40vh;
+  width: min-content;
 }
 
 .regia__message {
@@ -33,6 +35,8 @@
 
 .regia__plantin-img {
   transform: scaleX(-1);
+  height: 100%;
+  width: min-content;
 }
 
 .regia__message-img {
@@ -40,4 +44,24 @@
   right: 100%;
   top: 0;
   transform: translate(30%, -50%);
+  width: 60%;
+  height: min-content;
+}
+
+@media (min-width: 380px) {
+  .regia {
+    background-position: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  .regia {
+    background-position: 50%;
+    background-size: 65%;
+  }
+
+  .heresey__img-container {
+    margin: unset;
+    margin-inline-end: 2.7em;
+  }
 }

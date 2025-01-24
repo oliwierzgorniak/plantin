@@ -1,7 +1,7 @@
 .printer {
   background-image: url("../img/printer-background.svg");
   background-repeat: no-repeat;
-  background-position: 50% 35%;
+  background-position: 50% 40%;
   display: flex;
   align-items: flex-end;
 }
