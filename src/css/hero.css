@@ -8,7 +8,7 @@
 
 .hero__img {
   width: 90vw;
-  max-width: 47rem;
+  max-width: 32rem;
 }
 
 .hero__message-container {
@@ -16,7 +16,8 @@
   top: 7em;
 }
 
-/* @media (orientation: landscape) {
+@media (orientation: portrait) {
   .hero__img {
+    max-width: 42rem;
   }
-} */
+}
