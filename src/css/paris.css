@@ -21,3 +21,11 @@
   width: max-content;
   height: 100vh;
 }
+
+@media (orientation: landscape) {
+  .paris__map {
+    width: 100%;
+    height: unset;
+    transform: translateY(-5%);
+  }
+}
