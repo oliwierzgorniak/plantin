@@ -1,11 +1,39 @@
 .market {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
   position: relative;
 }
 
 .market__message {
   position: absolute;
   top: 0;
+  display: none;
+}
+
+.market__market-img {
+  width: 100%;
+  height: min-content;
+}
+
+.market__img-container {
+  position: relative;
+  width: 20%;
+  margin-block-end: -6rem;
+}
+
+.market__plantin-img {
+  width: 100%;
+  height: min-content;
+  z-index: 10;
+  position: relative;
+  margin-inline-start: -0.2rem;
+}
+
+.market__circle-img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
 }
