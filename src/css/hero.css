@@ -14,6 +14,11 @@
 .hero__message-container {
   position: absolute;
   top: 7em;
+  margin: 5%;
+}
+
+.hero__message {
+  width: 100%;
 }
 
 @media (orientation: portrait) {
