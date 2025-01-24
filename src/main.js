@@ -14,10 +14,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import handleMenu from "./js/handleMenu";
 import handleHero from "./js/handleHero";
 import handleMarket from "./js/handleMarket";
+import handleRegia from "./js/handleRegia";
 
 // gsap
 gsap.registerPlugin(ScrollTrigger);
 handleHero();
 handleMarket();
+handleRegia();
 
 handleMenu();
