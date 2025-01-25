@@ -66,7 +66,7 @@ const handleChart = () => {
     tl.to(".chart__container", {
       scale: 0,
       ease: "power2.out",
-      duration: 50,
+      duration: 500,
     });
   }, 1);
 
