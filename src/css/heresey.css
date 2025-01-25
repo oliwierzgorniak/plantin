@@ -109,6 +109,7 @@
   .heresey__img-container {
     align-self: flex-start;
     width: 50%;
+    height: fit-content;
   }
 
   .heresey__pamphlet-img {
