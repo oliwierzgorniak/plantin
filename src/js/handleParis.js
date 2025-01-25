@@ -3,10 +3,10 @@ import { gsap } from "gsap";
 const handleParis = () => {
   const tl = gsap.timeline({
     scrollTrigger: {
-      trigger: ".paris",
+      trigger: ".paris__container",
       start: "top top",
       scrub: true,
-      pin: true,
+      pin: ".paris",
     },
   });
 
