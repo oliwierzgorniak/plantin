@@ -12,7 +12,23 @@ const handleParis = () => {
 
   tl.fromTo(
     ".paris__pin",
-    { x: "-24vw", y: "23vh", ease: "power2.out", duration: 5 },
+    {
+      // AI was asked, but I had a simillar idea
+      x: () => {
+        const containerWidth = document.querySelector(
+          ".paris__img-container"
+        ).offsetWidth;
+        return containerWidth * -0.2;
+      },
+      y: () => {
+        const containerHeight = document.querySelector(
+          ".paris__img-container"
+        ).offsetHeight;
+        return containerHeight * 0.228;
+      },
+      ease: "power2.out",
+      duration: 5,
+    },
     { x: 0, y: 0 }
   );
   tl.fromTo(
