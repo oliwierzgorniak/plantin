@@ -39,8 +39,14 @@
   width: 100%;
 }
 
-@media (orientation: portrait) {
-  .hero__img {
-    max-width: 42rem;
+@media (orientation: landscape) {
+  .hero__img-container {
+    max-height: 60vh;
+    width: fit-content;
+  }
+
+  .hero__plantin-img {
+    max-height: 100%;
+    width: max-content;
   }
 }

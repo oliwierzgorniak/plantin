@@ -1,12 +1,8 @@
 .header {
-  /* position: absolute; */
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* z-index: 9; */
   max-width: var(--max-width);
-  /* left: 50%; */
-  /* transform: translateX(-50%); */
 }
 
 .header__nav {
@@ -88,11 +84,11 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: 1200px) {
   .header {
     justify-content: center;
     gap: 2.5em;
-    margin-inline-start: 0.6em;
+    margin-inline-start: 2.9em;
   }
 
   .header__open-button {
