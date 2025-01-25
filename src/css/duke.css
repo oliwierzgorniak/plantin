@@ -63,3 +63,26 @@
     height: unset;
   }
 }
+
+@media (min-width: 800px) {
+  .duke__plantin-pin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .duke__duke-pin {
+    top: 57.6%;
+  }
+
+  .duke__calvinist-pin1 {
+    top: 49%;
+    left: 41%;
+  }
+
+  .duke__calvinist-pin2 {
+    top: 67.5%;
+    left: 95%;
+  }
+}
