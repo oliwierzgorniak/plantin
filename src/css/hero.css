@@ -31,7 +31,7 @@
 
 .hero__message-container {
   position: absolute;
-  bottom: 0.5em;
+  top: 10vh;
   margin: 0 5%;
 }
 
