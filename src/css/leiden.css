@@ -1,7 +1,10 @@
 .leiden {
+  position: relative;
+}
+
+.leiden__container {
   display: flex;
   justify-content: center;
-  position: relative;
   align-items: center;
 }
 
