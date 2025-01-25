@@ -24,6 +24,8 @@ import handleFury from "./js/handleFury";
 import handleParis from "./js/handleParis";
 import handleScale from "./js/handleScale";
 import handleReligion from "./js/handleReligion";
+import handleHersey from "./js/handleHeresey";
+import handleDuke from "./js/handleDuke";
 
 // gsap
 gsap.registerPlugin(ScrollTrigger);
@@ -31,7 +33,9 @@ handleHero();
 handleParis();
 handleMarket();
 handleReligion();
+handleHersey();
 handleScale();
+handleDuke();
 handleRegia();
 handlePrinter();
 handleFury();
