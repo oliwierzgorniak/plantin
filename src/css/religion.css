@@ -5,9 +5,9 @@
   align-items: center;
 }
 
-.duke__message {
+.religion__message {
   position: absolute;
-  top: 2em;
+  bottom: 0;
 }
 
 .religion__img-container {
@@ -15,6 +15,10 @@
 }
 
 /* positioning helep with AI */
+
+.religion__plantin-pin {
+  z-index: 10;
+}
 
 .religion__plantin-pin,
 .religion__book {
