@@ -2,6 +2,21 @@
   position: relative;
 }
 
+.chart__messages-container {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 0.5em;
+  margin-block-start: 1em;
+}
+
+.chart__messages-container .message {
+  margin: 0;
+}
+
 .chart__container {
   overflow-x: scroll;
   overflow-y: hidden;
@@ -40,6 +55,7 @@
   line-height: 1.3;
   padding: 0 1em;
   max-width: 35rem;
+  font-family: "EB Garamond", serif;
 }
 
 .chart__button {

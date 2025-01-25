@@ -27,6 +27,7 @@ import handleReligion from "./js/handleReligion";
 import handleHersey from "./js/handleHeresey";
 import handleDuke from "./js/handleDuke";
 import handleLeiden from "./js/handleLeiden";
+import handleChart from "./js/handleChart";
 
 // gsap
 gsap.registerPlugin(ScrollTrigger);
@@ -41,5 +42,6 @@ handleRegia();
 handlePrinter();
 handleFury();
 handleLeiden();
+handleChart();
 
 handleMenu();
