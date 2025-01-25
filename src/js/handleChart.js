@@ -54,7 +54,7 @@ const handleChart = () => {
     tl.fromTo(
       ".chart__message3",
       {
-        y: "80vh",
+        y: "100vh",
       },
       {
         y: "-500%",
