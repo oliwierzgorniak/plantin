@@ -4,92 +4,33 @@ import handleSlider from "./handleLeiden/handleSlider";
 const handleLeiden = () => {
   const tl = gsap.timeline({
     scrollTrigger: {
-      trigger: ".duke",
+      trigger: ".leiden",
       start: "top top",
       scrub: true,
       pin: true,
     },
   });
 
-  const $dukePin = document.querySelector(".duke__duke-pin");
   tl.fromTo(
-    $dukePin,
+    ".leiden__message1",
     {
-      // AI was asked, but I had a simillar idea
-      x: () => {
-        const containerWidth = document.querySelector(
-          ".duke__img-container"
-        ).offsetWidth;
-        const xPos = containerWidth * 0.35;
-        return xPos - $dukePin.offsetLeft;
-      },
-      y: () => {
-        const containerHeight = document.querySelector(
-          ".duke__img-container"
-        ).offsetHeight;
-        const yPos = containerHeight * 0.83;
-        return yPos - $dukePin.offsetTop;
-      },
-      ease: "power2.out",
+      y: "40vh",
     },
-    { x: 0, y: 0 }
-  );
-
-  const $calvinsitPin1 = document.querySelector(".duke__calvinist-pin1");
-  tl.fromTo(
-    $calvinsitPin1,
     {
-      // AI was asked, but I had a simillar idea
-      x: () => {
-        const containerWidth = document.querySelector(
-          ".duke__img-container"
-        ).offsetWidth;
-        const xPos = containerWidth * 0.5;
-        return xPos - $calvinsitPin1.offsetLeft;
+      y: "-90vh",
+      onComplete: () => {
+        gsap.to(".leiden__call-container", { opacity: 1 });
       },
-      y: () => {
-        const containerHeight = document.querySelector(
-          ".duke__img-container"
-        ).offsetHeight;
-        const yPos = containerHeight * 0.345;
-        return yPos - $calvinsitPin1.offsetTop;
-      },
-      ease: "power2.out",
-    },
-    { x: 0, y: 0 }
-  );
-
-  const $calvinsitPin2 = document.querySelector(".duke__calvinist-pin2");
-  tl.fromTo(
-    $calvinsitPin2,
-    {
-      // AI was asked, but I had a simillar idea
-      x: () => {
-        const containerWidth = document.querySelector(
-          ".duke__img-container"
-        ).offsetWidth;
-        const xPos = containerWidth * 0.625;
-        return xPos - $calvinsitPin2.offsetLeft;
-      },
-      y: () => {
-        const containerHeight = document.querySelector(
-          ".duke__img-container"
-        ).offsetHeight;
-        const yPos = containerHeight * 0.42;
-        return yPos - $calvinsitPin2.offsetTop;
-      },
-      ease: "power2.out",
-    },
-    { x: 0, y: 0 },
-    "<"
+      duration: 5,
+    }
   );
   tl.fromTo(
-    ".duke__message",
+    ".leiden__message2",
     {
-      y: "100vh",
+      y: "150%",
     },
     {
-      y: "-120%",
+      y: "-100vh",
       duration: 5,
     }
   );

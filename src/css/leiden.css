@@ -15,6 +15,7 @@
   padding: 2em;
   border: var(--stroke-width) solid var(--text-color);
   text-align: center;
+  opacity: 0;
 }
 
 .leiden__call-title {
@@ -59,26 +60,26 @@
   font-size: 1.3rem;
 }
 
-.leiden__message1 {
+.leiden__message-container {
   position: absolute;
-  top: 2em;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-block-end: 1em;
 }
 
+.leiden__message1,
 .leiden__message2 {
-  position: absolute;
-  top: 2em;
-}
-
-.leiden__img-container {
-  position: relative;
+  margin: auto;
 }
 
 /* positioning helep with AI */
 
 .leiden__plantin-pin {
   position: absolute;
-  top: 40%;
-  left: 40.5%;
+  top: 64%;
+  left: 22.5%;
   transform: translate(-50%, -50%);
 }
 
