@@ -3,10 +3,10 @@ import { gsap } from "gsap";
 const handleMarket = () => {
   const tl = gsap.timeline({
     scrollTrigger: {
-      trigger: ".market",
+      trigger: ".market__container",
       start: "top top",
       scrub: true,
-      pin: true,
+      pin: ".market",
     },
   });
 
