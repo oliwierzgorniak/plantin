@@ -70,4 +70,5 @@
   appearance: none;
   color: var(--text-color); /*safari*/
   text-align: center;
+  text-decoration: none;
 }
