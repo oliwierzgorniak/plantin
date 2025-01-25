@@ -1,0 +1,42 @@
+.religion {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.duke__message {
+  position: absolute;
+  top: 2em;
+}
+
+.religion__img-container {
+  position: relative;
+}
+
+/* positioning helep with AI */
+
+.religion__plantin-pin,
+.religion__book {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.religion__map {
+  height: 100vh;
+  width: fit-content;
+  display: block;
+}
+
+@media (orientation: landscape) {
+  .religion__img-container {
+    width: 100%;
+  }
+
+  .religion__map {
+    width: 100%;
+    height: unset;
+  }
+}

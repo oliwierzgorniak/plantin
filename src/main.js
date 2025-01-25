@@ -3,6 +3,7 @@ import "./css/header.css";
 import "./css/hero.css";
 import "./css/paris.css";
 import "./css/market.css";
+import "./css/religion.css";
 import "./css/heresey.css";
 import "./css/duke.css";
 import "./css/regia.css";
