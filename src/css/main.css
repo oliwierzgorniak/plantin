@@ -100,4 +100,11 @@ button {
   height: 100vh;
   overflow: hidden;
   background-image: url("../img/paper.jpg");
+  width: 100vw;
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: var(--max-width);
 }
