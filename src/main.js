@@ -5,6 +5,7 @@ import "./css/paris.css";
 import "./css/market.css";
 import "./css/religion.css";
 import "./css/heresey.css";
+import "./css/scale.css";
 import "./css/duke.css";
 import "./css/regia.css";
 import "./css/printer.css";
@@ -21,12 +22,14 @@ import handleRegia from "./js/handleRegia";
 import handlePrinter from "./js/handlePrinter";
 import handleFury from "./js/handleFury";
 import handleParis from "./js/handleParis";
+import handleScale from "./js/handleScale";
 
 // gsap
 gsap.registerPlugin(ScrollTrigger);
 handleHero();
 handleParis();
 handleMarket();
+handleScale();
 handleRegia();
 handlePrinter();
 handleFury();
