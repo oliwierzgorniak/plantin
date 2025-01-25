@@ -1,7 +1,10 @@
 .duke {
+  position: relative;
+}
+
+.duke__container {
   display: flex;
   justify-content: center;
-  position: relative;
   align-items: center;
 }
 
