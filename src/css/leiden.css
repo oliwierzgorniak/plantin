@@ -5,6 +5,60 @@
   align-items: center;
 }
 
+.leiden__call-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/paper.jpg");
+  z-index: 20;
+  padding: 2em;
+  border: var(--stroke-width) solid var(--text-color);
+  text-align: center;
+}
+
+.leiden__call-title {
+  font-size: 2.7rem;
+  line-height: 1;
+  margin-block: 0.5em 0;
+  font-family: "EB Garamond", serif;
+}
+
+.leiden__call-description {
+  font-size: 1.7rem;
+  margin-block: 0.2em 1em;
+}
+
+.leiden__slider-container {
+  border: var(--stroke-width) solid var(--text-color);
+  border-radius: 10rem;
+  position: relative;
+  padding: 0.5em;
+  width: 15rem;
+  box-sizing: content-box;
+}
+
+.leiden__slider-icon {
+  border: var(--stroke-width) solid var(--text-color);
+  border-radius: 2rem;
+  display: block;
+  padding: 0.5em;
+  box-sizing: content-box;
+  background-image: url("../img/paper.jpg");
+  position: relative;
+  z-index: 10;
+}
+
+.leiden__slider-text {
+  position: absolute;
+  right: 40%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  margin-block: 0;
+  line-height: 1;
+  font-size: 1.3rem;
+}
+
 .leiden__message1 {
   position: absolute;
   top: 2em;
@@ -24,7 +78,7 @@
 .leiden__plantin-pin {
   position: absolute;
   top: 40%;
-  left: 40%;
+  left: 40.5%;
   transform: translate(-50%, -50%);
 }
 
@@ -38,7 +92,7 @@
 .leiden__swords {
   position: absolute;
   top: 64.5%;
-  left: 52%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
