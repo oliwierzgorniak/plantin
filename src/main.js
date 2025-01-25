@@ -23,12 +23,14 @@ import handlePrinter from "./js/handlePrinter";
 import handleFury from "./js/handleFury";
 import handleParis from "./js/handleParis";
 import handleScale from "./js/handleScale";
+import handleReligion from "./js/handleReligion";
 
 // gsap
 gsap.registerPlugin(ScrollTrigger);
 handleHero();
 handleParis();
 handleMarket();
+handleReligion();
 handleScale();
 handleRegia();
 handlePrinter();
