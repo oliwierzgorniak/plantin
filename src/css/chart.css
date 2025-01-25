@@ -1,13 +1,58 @@
+.chart {
+  position: relative;
+}
+
 .chart__container {
   overflow-x: scroll;
   overflow-y: hidden;
   height: 100vh;
   padding: 1.5em 0.3em 1em 0.3em;
   margin: auto;
+  background-image: url("../img/paper.jpg");
+  position: relative;
+  z-index: 10;
+  transform: scale(0.1);
 }
 
 .chart__chart {
   height: 100%;
   margin: auto;
   display: block;
+}
+
+.chart__ending-text-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart__title {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.3;
+  padding: 0 1em;
+  max-width: 35rem;
+}
+
+.chart__button {
+  max-width: 13rem;
+  line-height: 1.5;
+  border: 0.2em solid var(--accent-color);
+  margin: 0;
+  padding: 0.5em 0.8em;
+  font-size: var(--fs-0);
+  line-height: 1;
+  background-image: url("../img/paper.jpg");
+  appearance: none;
+  color: var(--text-color); /*safari*/
+  text-align: center;
 }
