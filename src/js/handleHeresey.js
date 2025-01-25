@@ -27,10 +27,10 @@ const handleHersey = () => {
 
   const tl2 = gsap.timeline({
     scrollTrigger: {
-      trigger: ".heresey",
+      trigger: ".heresey__container",
       start: "top top",
       scrub: true,
-      pin: true,
+      pin: ".heresey",
     },
   });
   tl2.fromTo(
