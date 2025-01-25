@@ -1,0 +1,62 @@
+.duke {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.duke__message {
+  position: absolute;
+  top: 2em;
+}
+
+.duke__img-container {
+  position: relative;
+}
+
+/* positioning helep with AI */
+
+.duke__plantin-pin {
+  position: absolute;
+  top: 49%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+
+.duke__duke-pin {
+  position: absolute;
+  top: 63%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.duke__calvinist-pin1 {
+  position: absolute;
+  top: 33.3%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.duke__calvinist-pin2 {
+  position: absolute;
+  top: 39%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+}
+
+.duke__map {
+  height: 100vh;
+  width: fit-content;
+  display: block;
+}
+
+@media (orientation: landscape) {
+  .duke__img-container {
+    width: 100%;
+  }
+
+  .duke__map {
+    width: 100%;
+    height: unset;
+  }
+}

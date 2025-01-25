@@ -14,23 +14,28 @@
   position: relative;
 }
 
+/* positioning helep with AI */
+
 .paris__pin {
   position: absolute;
-  top: 43%;
+  top: 41%;
   left: 60%;
   transform: translate(-50%, -50%);
 }
 
 .paris__map {
-  /* transform: translateY(-3rem); */
-  width: max-content;
   height: 100vh;
+  width: fit-content;
+  display: block;
 }
 
 @media (orientation: landscape) {
+  .paris__img-container {
+    width: 100%;
+  }
+
   .paris__map {
     width: 100%;
     height: unset;
-    transform: translateY(-5%);
   }
 }
