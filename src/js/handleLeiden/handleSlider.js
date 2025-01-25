@@ -53,7 +53,7 @@ const handleSlider = () => {
           const containerWidth = document.querySelector(
             ".leiden__img-container"
           ).offsetWidth;
-          const xPos = containerWidth * 0.14;
+          const xPos = containerWidth * 0.13;
           return xPos - $plantinPin.offsetLeft;
         },
         y: () => {
