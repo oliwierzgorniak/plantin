@@ -45,6 +45,8 @@ body {
   min-width: 300px;
   min-height: 100vh;
   overflow-x: hidden;
+  color: var(--text-color);
+  font-family: "Jost", sans-serif;
 }
 
 a {
