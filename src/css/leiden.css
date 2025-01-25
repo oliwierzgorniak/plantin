@@ -1,0 +1,60 @@
+.leiden {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.leiden__message1 {
+  position: absolute;
+  top: 2em;
+}
+
+.leiden__message2 {
+  position: absolute;
+  top: 2em;
+}
+
+.leiden__img-container {
+  position: relative;
+}
+
+/* positioning helep with AI */
+
+.leiden__plantin-pin {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.leiden__lipsius-pin {
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.leiden__swords {
+  position: absolute;
+  top: 64.5%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+
+.leiden__map {
+  height: 100vh;
+  width: fit-content;
+  display: block;
+}
+
+@media (orientation: landscape) {
+  .leiden__img-container {
+    width: 100%;
+  }
+
+  .leiden__map {
+    width: 100%;
+    height: unset;
+  }
+}

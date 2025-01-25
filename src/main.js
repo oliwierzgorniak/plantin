@@ -8,6 +8,7 @@ import "./css/duke.css";
 import "./css/regia.css";
 import "./css/printer.css";
 import "./css/fury.css";
+import "./css/leiden.css";
 import "./css/chart.css";
 
 import { gsap } from "gsap";
