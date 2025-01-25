@@ -15,17 +15,17 @@ const handleHero = () => {
   tl.fromTo(
     ".hero__message1",
     {
-      y: "70vh",
+      y: "100vh",
     },
-    { y: "-80vh" }
+    { y: "-50vh" }
   );
 
   tl.fromTo(
     ".hero__message2",
     {
-      y: "30vh",
+      y: "100vh",
     },
-    { y: "-100vh" }
+    { y: "-70vh" }
   );
 };
 
