@@ -89,8 +89,12 @@ const handleSlider = () => {
     }
   });
 
-  $phone.addEventListener("click", () => {
+  $phone.addEventListener("mousedown", () => {
     isPressed = true;
+  });
+
+  $phone.addEventListener("mouseup", () => {
+    isPressed = false;
   });
 
   $phone.addEventListener("mousemove", (e) => {
