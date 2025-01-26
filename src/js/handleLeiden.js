@@ -17,7 +17,7 @@ const handleLeiden = () => {
       y: "40vh",
     },
     {
-      y: "-90vh",
+      y: "-110vh",
       onComplete: () => {
         gsap.to(".leiden__call-container", { opacity: 1 });
       },
@@ -30,7 +30,7 @@ const handleLeiden = () => {
       y: "150%",
     },
     {
-      y: "-100vh",
+      y: "-110vh",
       duration: 5,
     }
   );

@@ -16,7 +16,7 @@ const handleChart = () => {
   setTimeout(() => {
     tl.to($chartContainer, {
       scrollLeft: $chartImg.clientWidth * 0.2,
-      duration: 100,
+      duration: 400,
     });
 
     tl.fromTo(
