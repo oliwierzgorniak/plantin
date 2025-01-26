@@ -47,23 +47,44 @@ const handleSlider = () => {
           $container.classList.add("hidden");
         },
       });
-
-      tl.to($plantinPin, {
-        x: () => {
-          const containerWidth = document.querySelector(
-            ".leiden__img-container"
-          ).offsetWidth;
-          const xPos = containerWidth * 0.13;
-          return xPos - $plantinPin.offsetLeft;
-        },
-        y: () => {
-          const containerHeight = document.querySelector(
-            ".leiden__img-container"
-          ).offsetHeight;
-          const yPos = containerHeight * 0.4;
-          return yPos - $plantinPin.offsetTop;
-        },
-        ease: "power2.out",
+      let mm = gsap.matchMedia();
+      mm.add("(max-width: 799px)", () => {
+        tl.to($plantinPin, {
+          x: () => {
+            const containerWidth = document.querySelector(
+              ".leiden__img-container"
+            ).offsetWidth;
+            const xPos = containerWidth * 0.13;
+            return xPos - $plantinPin.offsetLeft;
+          },
+          y: () => {
+            const containerHeight = document.querySelector(
+              ".leiden__img-container"
+            ).offsetHeight;
+            const yPos = containerHeight * 0.4;
+            return yPos - $plantinPin.offsetTop;
+          },
+          ease: "power2.out",
+        });
+      });
+      mm.add("(min-width: 800px)", () => {
+        tl.to($plantinPin, {
+          x: () => {
+            const containerWidth = document.querySelector(
+              ".leiden__img-container"
+            ).offsetWidth;
+            const xPos = containerWidth * 0.27;
+            return xPos - $plantinPin.offsetLeft;
+          },
+          y: () => {
+            const containerHeight = document.querySelector(
+              ".leiden__img-container"
+            ).offsetHeight;
+            const yPos = containerHeight * 0.4;
+            return yPos - $plantinPin.offsetTop;
+          },
+          ease: "power2.out",
+        });
       });
     }
   });
@@ -113,7 +134,7 @@ const handleSlider = () => {
             const containerWidth = document.querySelector(
               ".leiden__img-container"
             ).offsetWidth;
-            const xPos = containerWidth * 0.13;
+            const xPos = containerWidth * 0.27;
             return xPos - $plantinPin.offsetLeft;
           },
           y: () => {

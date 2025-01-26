@@ -106,6 +106,12 @@
   display: block;
 }
 
+@media (min-width: 800px) {
+  .leiden__plantin-pin {
+    left: 36.5%;
+  }
+}
+
 @media (orientation: landscape) {
   .leiden__img-container {
     width: 100%;
@@ -115,10 +121,8 @@
     width: 100%;
     height: unset;
   }
-}
 
-@media (min-width: 800px) {
   .leiden__plantin-pin {
-    left: 40.5%;
+    left: 41.5%;
   }
 }
