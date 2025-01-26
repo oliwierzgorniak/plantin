@@ -17,11 +17,6 @@
   gap: 0.5em 0.1em;
 }
 
-.scale__book-img {
-  /* position: absolute; */
-  /* transform: translateX(-50%); */
-}
-
 .scale__message {
   position: absolute;
   z-index: 2;
@@ -29,12 +24,6 @@
   left: 50%;
   transform: translateX(-50%);
 }
-
-/* @media (min-width: 380px) {
-  .scale {
-    background-position: 50% 45%, center;
-  }
-} */
 
 @media (min-width: 800px) {
   .scale {
