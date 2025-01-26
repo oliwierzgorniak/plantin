@@ -116,3 +116,9 @@
     height: unset;
   }
 }
+
+@media (min-width: 800px) {
+  .leiden__plantin-pin {
+    left: 40.5%;
+  }
+}
