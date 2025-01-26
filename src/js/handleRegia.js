@@ -10,10 +10,10 @@ const handleRegia = () => {
     },
   });
 
-  tl.fromTo(".regia__king-img", { x: "-200%", ease: "power2.out" }, { x: 0 });
+  tl.fromTo(".regia__king-img", { x: "-50vw", ease: "power2.out" }, { x: 0 });
   tl.fromTo(
     ".regia__img-container",
-    { x: "200%", ease: "power2.out" },
+    { x: "50vw", ease: "power2.out" },
     { x: 0 }
   );
   tl.fromTo(
