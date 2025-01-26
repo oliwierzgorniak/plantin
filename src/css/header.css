@@ -17,6 +17,17 @@
 }
 
 .header__logo {
+  width: 20vw;
+  height: 20vw;
+}
+
+.header__close-button img,
+.header__open-button img {
+  width: 14vw;
+  height: 14vw;
+}
+
+.header__logo {
   margin: 0.8em 0.45em;
 }
 
@@ -79,11 +90,13 @@
 @media (min-width: 700px) {
   .header__logo {
     width: 7rem;
+    height: unset;
     margin-inline-start: 1em;
     margin-block-start: 1.1em;
   }
 
-  .header__open-button img {
+  .header__open-button img,
+  .header__close-button img {
     width: 4rem;
     height: 4rem;
   }

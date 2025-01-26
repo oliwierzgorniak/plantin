@@ -29,8 +29,10 @@ import handleDuke from "./js/handleDuke";
 import handleLeiden from "./js/handleLeiden";
 import handleChart from "./js/handleChart";
 import removeNoJsClass from "./js/removeNoJsClass";
+import handleLoader from "./js/handleLoader";
 
 removeNoJsClass();
+handleLoader();
 
 // gsap
 gsap.registerPlugin(ScrollTrigger);

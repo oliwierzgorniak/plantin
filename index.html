@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Museum Plantin-Moretus</title>
+    <link rel="preload" href="/src/img/plantin-pin.png" as="image" />
     <script type="module" src="/src/main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,34 +12,58 @@
       href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <style>
+      .loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background: #e6ddd5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .loader__img {
+        animation: rotate 1.4s infinite linear;
+      }
+
+      .loader__text {
+        font-size: 1.5rem;
+        font-family: serif;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0);
+        }
+
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
   </head>
   <body>
-    <nav class="header__mobile-nav header__mobile-nav--no-js">
+    <div class="loader">
+      <img
+        class="loader__img"
+        src="./src/img/plantin-pin.png"
+        alt="Christophe Plantin"
+        height="100"
+        width="100"
+      />
+      <p class="loader__text">Loading...</p>
+    </div>
+    <nav
+      class="header__mobile-nav header__mobile-nav--no-js"
+      style="transform: translateX(100%)"
+    >
       <button class="header__close-button">
-        <svg
-          role="img"
-          aria-labelledby="svg-title"
-          focusable="false"
-          width="34"
-          height="34"
-        >
-          <rect
-            x="4.27197"
-            y="28.0416"
-            width="34"
-            height="2"
-            transform="rotate(-45 4.27197 28.0416)"
-            fill="#333332"
-          />
-          <rect
-            x="5.68604"
-            y="4.27206"
-            width="34"
-            height="2"
-            transform="rotate(45 5.68604 4.27206)"
-            fill="#333332"
-          />
-        </svg>
+        <img src="./src/img/close.svg" alt="close icon" />
       </button>
       <ul class="header__mobile-menu-list">
         <li>
