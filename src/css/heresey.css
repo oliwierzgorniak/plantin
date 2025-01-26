@@ -22,6 +22,7 @@
 .heresey__pamphlet-img {
   width: min-content;
   height: 100%;
+  aspect-ratio: 186/275;
 }
 
 .heresey__wood-img {
