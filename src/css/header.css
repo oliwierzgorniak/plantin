@@ -48,6 +48,11 @@
   transition: transform 0.3s ease-in-out;
 }
 
+.header__mobile-nav--no-js {
+  position: static;
+  transform: translateX(0);
+}
+
 .header__mobile-nav--open {
   transform: translateX(0);
 }

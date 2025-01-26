@@ -28,6 +28,9 @@ import handleHersey from "./js/handleHeresey";
 import handleDuke from "./js/handleDuke";
 import handleLeiden from "./js/handleLeiden";
 import handleChart from "./js/handleChart";
+import removeNoJsClass from "./js/removeNoJsClass";
+
+removeNoJsClass();
 
 // gsap
 gsap.registerPlugin(ScrollTrigger);
