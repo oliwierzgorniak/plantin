@@ -31,7 +31,7 @@ import handleChart from "./js/handleChart";
 
 // gsap
 gsap.registerPlugin(ScrollTrigger);
-handleHero();
+// handleHero();
 handleParis();
 handleMarket();
 handleReligion();

@@ -141,13 +141,31 @@
           src="./src/img/hero-circle.svg"
           alt="orange circle"
         />
-        <img
-          width="195"
-          height="245"
-          class="hero__plantin-img"
-          src="./src/img/hero-plantin.png"
-          alt="print of Plantin divided into two part with color"
-        />
+        <picture>
+          <source
+            sizes="(orientation: landscape) calc(60vh * 0.795), (orientation: portrait) 70vw"
+            srcset="
+              ./src/img/hero-plantin/hero-plantin_we4mn2_c_scale,w_300.avif   300w,
+              ./src/img/hero-plantin/hero-plantin_we4mn2_c_scale,w_488.avif   488w,
+              ./src/img/hero-plantin/hero-plantin_we4mn2_c_scale,w_630.avif   630w,
+              ./src/img/hero-plantin/hero-plantin_we4mn2_c_scale,w_753.avif   753w,
+              ./src/img/hero-plantin/hero-plantin_we4mn2_c_scale,w_867.avif   867w,
+              ./src/img/hero-plantin/hero-plantin_we4mn2_c_scale,w_958.avif   958w,
+              ./src/img/hero-plantin/hero-plantin_we4mn2_c_scale,w_1066.avif 1066w,
+              ./src/img/hero-plantin/hero-plantin_we4mn2_c_scale,w_1160.avif 1160w,
+              ./src/img/hero-plantin/hero-plantin_we4mn2_c_scale,w_1252.avif 1252w,
+              ./src/img/hero-plantin/hero-plantin_we4mn2_c_scale,w_1630.avif 1630w
+            "
+            type="image/avif"
+          />
+          <img
+            class="hero__plantin-img"
+            width="195"
+            height="245"
+            src="./src/img/hero-plantin.png"
+            alt="print of Plantin divided into two part with color"
+          />
+        </picture>
       </div>
     </section>
     <section class="paris section">
