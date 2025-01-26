@@ -202,21 +202,53 @@
         </p>
         <picture class="market__market-img">
           <source
-            srcset="./src/img/market-desktop.png"
+            sizes="(orientation: landscape) calc(60vh * 0.795), (orientation: portrait) 70vw"
             media="(orientation: landscape)"
-            type="image/png"
+            srcset="
+              ./src/img/market/desktop/market-desktop_nqpzhy_c_scale,w_300.avif   300w,
+              ./src/img/market/desktop/market-desktop_nqpzhy_c_scale,w_524.avif   524w,
+              ./src/img/market/desktop/market-desktop_nqpzhy_c_scale,w_703.avif   703w,
+              ./src/img/market/desktop/market-desktop_nqpzhy_c_scale,w_865.avif   865w,
+              ./src/img/market/desktop/market-desktop_nqpzhy_c_scale,w_1040.avif 1040w,
+              ./src/img/market/desktop/market-desktop_nqpzhy_c_scale,w_1206.avif 1206w,
+              ./src/img/market/desktop/market-desktop_nqpzhy_c_scale,w_1369.avif 1369w,
+              ./src/img/market/desktop/market-desktop_nqpzhy_c_scale,w_1523.avif 1523w,
+              ./src/img/market/desktop/market-desktop_nqpzhy_c_scale,w_1675.avif 1675w,
+              ./src/img/market/desktop/market-desktop_nqpzhy_c_scale,w_1894.avif 1894w
+            "
+            type="image/avif"
           />
           <source
-            srcset="./src/img/market-tablet.png"
+            sizes="(orientation: landscape) calc(60vh * 0.795), (orientation: portrait) 70vw"
             media="(min-width: 750px)"
-            type="image/png"
+            srcset="
+              ./src/img/market/tablet/market-tablet_nkd9aj_c_scale,w_300.avif   300w,
+              ./src/img/market/tablet/market-tablet_nkd9aj_c_scale,w_426.avif   426w,
+              ./src/img/market/tablet/market-tablet_nkd9aj_c_scale,w_532.avif   532w,
+              ./src/img/market/tablet/market-tablet_nkd9aj_c_scale,w_620.avif   620w,
+              ./src/img/market/tablet/market-tablet_nkd9aj_c_scale,w_709.avif   709w,
+              ./src/img/market/tablet/market-tablet_nkd9aj_c_scale,w_798.avif   798w,
+              ./src/img/market/tablet/market-tablet_nkd9aj_c_scale,w_885.avif   885w,
+              ./src/img/market/tablet/market-tablet_nkd9aj_c_scale,w_967.avif   967w,
+              ./src/img/market/tablet/market-tablet_nkd9aj_c_scale,w_1010.avif 1010w,
+              ./src/img/market/tablet/market-tablet_nkd9aj_c_scale,w_1408.avif 1408w
+            "
+            type="image/avif"
+          />
+          <source
+            sizes="(orientation: landscape) calc(60vh * 0.795), (orientation: portrait) 70vw"
+            srcset="
+              ./src/img/market/mobile/market_pjbdb9_c_scale,w_300.avif 300w,
+              ./src/img/market/mobile/market_pjbdb9_c_scale,w_820.avif 820w
+            "
+            type="image/avif"
           />
           <img
             class="market__market-img"
-            src="./src/img/market.png"
+            src="./src/img/market-desktop.png"
             alt="market"
             width="320"
-            height="271"
+            height="96.98"
           />
         </picture>
         <div class="market__img-container">
@@ -249,13 +281,16 @@
               />
             </g>
           </svg>
-          <img
-            class="market__plantin-img"
-            src="./src/img/plantin.png"
-            alt="Christophe Plantin standing"
-            width="398"
-            height="836"
-          />
+          <picture>
+            <source srcset="./src/img/plantin.avif" type="image/avif" />
+            <img
+              class="market__plantin-img"
+              src="./src/img/plantin.png"
+              alt="Christophe Plantin standing"
+              width="398"
+              height="836"
+            />
+          </picture>
         </div>
       </div>
     </section>
