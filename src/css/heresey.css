@@ -29,8 +29,12 @@
   position: absolute;
   top: 0;
   width: 110%;
-  height: min-content;
   opacity: 0;
+}
+
+.heresey__wood-img img {
+  width: 100%;
+  height: min-content;
 }
 
 .heresey__pope-img-container {

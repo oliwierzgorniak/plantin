@@ -363,29 +363,76 @@
           the sale to protect his assets from confiscation.
         </p>
         <div class="heresey__img-container">
-          <img
-            class="heresey__pamphlet-img"
-            src="./src/img/pamphlet.jpg"
-            alt="calvinist pamphlet"
-            width="186"
-            height="275"
-          />
-          <img
-            class="heresey__wood-img"
-            src="./src/img/wood-scanner.jpg"
-            alt="wood plank"
-            width="201"
-            height="37"
-          />
+          <picture>
+            <source
+              sizes="(orientation: landscape) calc(60vh * 0.795),
+            (orientation: portrait) 70vw"
+              srcset="
+                ./src/img/pamphlet/pamphlet_mztgqo_c_scale,w_290.avif   290w,
+                ./src/img/pamphlet/pamphlet_mztgqo_c_scale,w_457.avif   457w,
+                ./src/img/pamphlet/pamphlet_mztgqo_c_scale,w_606.avif   606w,
+                ./src/img/pamphlet/pamphlet_mztgqo_c_scale,w_735.avif   735w,
+                ./src/img/pamphlet/pamphlet_mztgqo_c_scale,w_871.avif   871w,
+                ./src/img/pamphlet/pamphlet_mztgqo_c_scale,w_1039.avif 1039w,
+                ./src/img/pamphlet/pamphlet_mztgqo_c_scale,w_1153.avif 1153w,
+                ./src/img/pamphlet/pamphlet_mztgqo_c_scale,w_2049.avif 2049w
+              "
+              type="image/avif"
+            />
+            <img
+              class="heresey__pamphlet-img"
+              src="./src/img/pamphlet.jpg"
+              alt="calvinist pamphlet"
+              width="186"
+              height="275"
+            />
+          </picture>
+          <picture class="heresey__wood-img">
+            <source
+              sizes="(orientation: landscape) calc(60vh * 0.795),
+            (orientation: portrait) 70vw"
+              srcset="
+                ./src/img/heresey-wood/hersey-wood_twq8t8_c_scale,w_150.avif   150w,
+                ./src/img/heresey-wood/hersey-wood_twq8t8_c_scale,w_1000.avif 1000w
+              "
+              type="image/avif"
+            />
+            <img
+              src="./src/img/hersey-wood.jpg"
+              alt="wood plank"
+              width="201"
+              height="37"
+            />
+          </picture>
         </div>
         <div class="heresey__pope-img-container">
-          <img
-            class="heresey__pope-img"
-            src="./src/img/pope.png"
-            alt="Pope Pius IV sitting on a chair"
-            width="300"
-            height="268"
-          />
+          <picture class="heresey__pope-img">
+            <source
+              sizes="(orientation: landscape) calc(60vh * 0.795),
+            (orientation: portrait) 70vw"
+              srcset="
+                ./src/img/heresey-pope/heresey-pope_pucgku_c_scale,w_300.avif   300w,
+                ./src/img/heresey-pope/heresey-pope_pucgku_c_scale,w_735.avif   735w,
+                ./src/img/heresey-pope/heresey-pope_pucgku_c_scale,w_1025.avif 1025w,
+                ./src/img/heresey-pope/heresey-pope_pucgku_c_scale,w_1239.avif 1239w,
+                ./src/img/heresey-pope/heresey-pope_pucgku_c_scale,w_1435.avif 1435w,
+                ./src/img/heresey-pope/heresey-pope_pucgku_c_scale,w_1597.avif 1597w,
+                ./src/img/heresey-pope/heresey-pope_pucgku_c_scale,w_1761.avif 1761w,
+                ./src/img/heresey-pope/heresey-pope_pucgku_c_scale,w_1918.avif 1918w,
+                ./src/img/heresey-pope/heresey-pope_pucgku_c_scale,w_2012.avif 2012w,
+                ./src/img/heresey-pope/heresey-pope_pucgku_c_scale,w_2050.avif 2050w
+              "
+              type="image/avif"
+            />
+            <img
+              class="heresey__pope-img"
+              src="./src/img/hersey-pope.png"
+              alt="Pope Pius IV sitting on a chair"
+              width="300"
+              height="268"
+            />
+          </picture>
+
           <img
             class="heresey__comment"
             src="./src/img/heresey__message.svg"
