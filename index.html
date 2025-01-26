@@ -904,21 +904,58 @@
         of Spain: a monumental, multi-lingual edition of the Bible—the Biblia
         Regia (King’s Bible).
       </p>
-      <img
-        class="regia__king-img"
-        src="./src/img/philip-2.png"
-        alt="king Philip II standing"
-        width="116"
-        height="266"
-      />
-      <div class="regia__img-container">
-        <img
-          class="regia__plantin-img"
-          src="./src/img/plantin.png"
-          alt="Christophe Plantin standing"
-          width="124"
-          height="262"
+      <picture class="regia__king-img">
+        <source
+          sizes="(orientation: landscape) calc(60vh * 0.795),
+            (orientation: portrait) 70vw"
+          srcset="
+            ./src/img/regia-king/regia-king_diblzs_c_scale,w_110.avif   110w,
+            ./src/img/regia-king/regia-king_diblzs_c_scale,w_333.avif   333w,
+            ./src/img/regia-king/regia-king_diblzs_c_scale,w_485.avif   485w,
+            ./src/img/regia-king/regia-king_diblzs_c_scale,w_602.avif   602w,
+            ./src/img/regia-king/regia-king_diblzs_c_scale,w_729.avif   729w,
+            ./src/img/regia-king/regia-king_diblzs_c_scale,w_833.avif   833w,
+            ./src/img/regia-king/regia-king_diblzs_c_scale,w_935.avif   935w,
+            ./src/img/regia-king/regia-king_diblzs_c_scale,w_1039.avif 1039w,
+            ./src/img/regia-king/regia-king_diblzs_c_scale,w_1145.avif 1145w,
+            ./src/img/regia-king/regia-king_diblzs_c_scale,w_1235.avif 1235w
+          "
+          type="image/avif"
         />
+        <img
+          src="./src/img/heresey-king.png"
+          alt="king Philip II standing"
+          width="116"
+          height="260.08"
+        />
+      </picture>
+      <div class="regia__img-container">
+        <picture class="regia__plantin-img">
+          <source
+            sizes="(orientation: landscape) calc(60vh * 0.795),
+          (orientation: portrait) 70vw"
+            srcset="
+              ./src/img/plantin/plantin_ytaa1y_c_scale,w_210.avif   210w,
+              ./src/img/plantin/plantin_ytaa1y_c_scale,w_512.avif   512w,
+              ./src/img/plantin/plantin_ytaa1y_c_scale,w_720.avif   720w,
+              ./src/img/plantin/plantin_ytaa1y_c_scale,w_876.avif   876w,
+              ./src/img/plantin/plantin_ytaa1y_c_scale,w_1017.avif 1017w,
+              ./src/img/plantin/plantin_ytaa1y_c_scale,w_1148.avif 1148w,
+              ./src/img/plantin/plantin_ytaa1y_c_scale,w_1267.avif 1267w,
+              ./src/img/plantin/plantin_ytaa1y_c_scale,w_1394.avif 1394w,
+              ./src/img/plantin/plantin_ytaa1y_c_scale,w_1482.avif 1482w,
+              ./src/img/plantin/plantin_ytaa1y_c_scale,w_1520.avif 1520w
+            "
+            type="image/avif"
+          />
+          <img
+            class="regia__plantin-img"
+            src="./src/img/plantin.png"
+            alt="Christophe Plantin standing"
+            width="124"
+            height="260.4"
+          />
+        </picture>
         <img
           class="regia__message-img"
           src="./src/img/regia-message.png"
