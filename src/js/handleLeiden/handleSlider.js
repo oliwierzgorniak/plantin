@@ -47,44 +47,22 @@ const handleSlider = () => {
           $container.classList.add("hidden");
         },
       });
-      let mm = gsap.matchMedia();
-      mm.add("(max-width: 799px)", () => {
-        tl.to($plantinPin, {
-          x: () => {
-            const containerWidth = document.querySelector(
-              ".leiden__img-container"
-            ).offsetWidth;
-            const xPos = containerWidth * 0.13;
-            return xPos - $plantinPin.offsetLeft;
-          },
-          y: () => {
-            const containerHeight = document.querySelector(
-              ".leiden__img-container"
-            ).offsetHeight;
-            const yPos = containerHeight * 0.4;
-            return yPos - $plantinPin.offsetTop;
-          },
-          ease: "power2.out",
-        });
-      });
-      mm.add("(min-width: 800px)", () => {
-        tl.to($plantinPin, {
-          x: () => {
-            const containerWidth = document.querySelector(
-              ".leiden__img-container"
-            ).offsetWidth;
-            const xPos = containerWidth * 0.27;
-            return xPos - $plantinPin.offsetLeft;
-          },
-          y: () => {
-            const containerHeight = document.querySelector(
-              ".leiden__img-container"
-            ).offsetHeight;
-            const yPos = containerHeight * 0.4;
-            return yPos - $plantinPin.offsetTop;
-          },
-          ease: "power2.out",
-        });
+      tl.to($plantinPin, {
+        x: () => {
+          const containerWidth = document.querySelector(
+            ".leiden__img-container"
+          ).offsetWidth;
+          const xPos = containerWidth * 0.043;
+          return xPos;
+        },
+        y: () => {
+          const containerHeight = document.querySelector(
+            ".leiden__img-container"
+          ).offsetHeight;
+          const yPos = containerHeight * -0.165;
+          return yPos;
+        },
+        ease: "power2.out",
       });
     }
   });
@@ -131,44 +109,23 @@ const handleSlider = () => {
           $container.classList.add("hidden");
         },
       });
-      let mm = gsap.matchMedia();
-      mm.add("(max-width: 799px)", () => {
-        tl.to($plantinPin, {
-          x: () => {
-            const containerWidth = document.querySelector(
-              ".leiden__img-container"
-            ).offsetWidth;
-            const xPos = containerWidth * 0.27;
-            return xPos - $plantinPin.offsetLeft;
-          },
-          y: () => {
-            const containerHeight = document.querySelector(
-              ".leiden__img-container"
-            ).offsetHeight;
-            const yPos = containerHeight * 0.4;
-            return yPos - $plantinPin.offsetTop;
-          },
-          ease: "power2.out",
-        });
-      });
-      mm.add("(min-width: 800px)", () => {
-        tl.to($plantinPin, {
-          x: () => {
-            const containerWidth = document.querySelector(
-              ".leiden__img-container"
-            ).offsetWidth;
-            const xPos = containerWidth * 0.46;
-            return xPos - $plantinPin.offsetLeft;
-          },
-          y: () => {
-            const containerHeight = document.querySelector(
-              ".leiden__img-container"
-            ).offsetHeight;
-            const yPos = containerHeight * 0.285;
-            return yPos - $plantinPin.offsetTop;
-          },
-          ease: "power2.out",
-        });
+
+      tl.to($plantinPin, {
+        x: () => {
+          const containerWidth = document.querySelector(
+            ".leiden__img-container"
+          ).offsetWidth;
+          const xPos = containerWidth * 0.043;
+          return xPos;
+        },
+        y: () => {
+          const containerHeight = document.querySelector(
+            ".leiden__img-container"
+          ).offsetHeight;
+          const yPos = containerHeight * -0.165;
+          return yPos;
+        },
+        ease: "power2.out",
       });
     }
   });
