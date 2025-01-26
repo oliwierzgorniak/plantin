@@ -72,3 +72,9 @@
   text-align: center;
   text-decoration: none;
 }
+
+@media (min-aspect-ratio: 1099/730) {
+  .chart__container {
+    overflow-x: auto;
+  }
+}
