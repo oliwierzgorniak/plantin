@@ -76,6 +76,29 @@
   right: 12%;
   width: 30%;
   height: auto;
+  animation: wiggling 3s infinite;
+}
+
+@keyframes wiggling {
+  0% {
+    transform: translateX(0);
+  }
+
+  2% {
+    transform: translateX(2%);
+  }
+
+  4% {
+    transform: translateX(0);
+  }
+
+  6% {
+    transform: translateX(-2%);
+  }
+
+  8% {
+    transform: translateX(0);
+  }
 }
 
 .heresey__button img {
